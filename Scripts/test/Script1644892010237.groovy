@@ -21,9 +21,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://121.40.154.50:8049/login')
 
-WebUI.setText(findTestObject('Object Repository/Page_Zetta Decision/input_Name_loginName (1)'), '13666666666')
+WebUI.setText(findTestObject('Object Repository/Page_Zetta Decision/input_Name_loginName'), '13666666666')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Zetta Decision/input_Password_loginPwd (1)'), 'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Zetta Decision/input_Password_loginPwd'), 'aeHFOx8jV/A=')
 
 WebUI.click(findTestObject('Object Repository/Page_Zetta Decision/button_'))
+
+WebUI.click(findTestObject('Object Repository/删除业务模型/Page_Zetta Decision/a_'))
+
+WebUI.mouseOver(findTestObject('删除业务模型/Page_Zetta Decision/svg - Copy'))
+
+WebUI.click(findTestObject('Object Repository/删除业务模型/Page_Zetta Decision/svg'))
+
+WebUI.click(findTestObject('Object Repository/删除业务模型/Page_Zetta Decision/a__1'))
 

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Name_loginName (1)</name>
+   <name>div_</name>
    <tag></tag>
-   <elementGuidId>0f123d73-169b-4071-b487-f0c523250bc1</elementGuidId>
+   <elementGuidId>8a66d6ba-5cf6-4031-92a4-96c0cff37c36</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#loginName</value>
+         <value>div.node-text</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='loginName']</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='标签描述'])[1]/following::span[6]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,69 +21,55 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>请输入登录名称！</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>loginName</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ant-input ant-input-lg</value>
+      <value>node-text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>全部标签</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;loginName&quot;)</value>
+      <value>/html[@class=&quot;&quot;]/body[1]/div[5]/div[1]/div[@class=&quot;ant-select-dropdown ant-tree-select-dropdown ant-select-dropdown-placement-bottomLeft&quot;]/div[1]/div[1]/div[@class=&quot;ant-select-tree&quot;]/div[@class=&quot;ant-select-tree-list&quot;]/div[@class=&quot;ant-select-tree-list-holder&quot;]/div[1]/div[@class=&quot;ant-select-tree-list-holder-inner&quot;]/div[@class=&quot;ant-select-tree-treenode ant-select-tree-treenode-switcher-open ant-select-tree-treenode-leaf-last&quot;]/span[@class=&quot;ant-select-tree-node-content-wrapper ant-select-tree-node-content-wrapper-normal&quot;]/span[@class=&quot;ant-select-tree-title&quot;]/div[@class=&quot;_3hxNV4KQLZrFk_XMampcwZ&quot;]/div[@class=&quot;node-text&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//input[@id='loginName']</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='标签描述'])[1]/following::div[26]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div/div/div/div[2]/form/div/div[2]/div/div/span/input</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='是否唯一'])[1]/following::div[32]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span/input</value>
+      <value>//span/div/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@placeholder = '请输入登录名称！' and @id = 'loginName' and @type = 'text']</value>
+      <value>//div[(text() = '全部标签' or . = '全部标签')]</value>
    </webElementXpaths>
 </WebElementEntity>

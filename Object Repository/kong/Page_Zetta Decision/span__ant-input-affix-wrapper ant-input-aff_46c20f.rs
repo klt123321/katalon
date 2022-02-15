@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_API</name>
+   <name>span__ant-input-affix-wrapper ant-input-aff_46c20f</name>
    <tag></tag>
-   <elementGuidId>fa3d63c4-e4cd-4280-a4f3-313bcd7fb922</elementGuidId>
+   <elementGuidId>ec30b9e4-99e5-404e-917f-3ec565f9aea4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>span.ant-input-affix-wrapper.ant-input-affix-wrapper-focused.pro-field.pro-field-lg</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/section/section/main/div/div/div[2]/div[2]/button/span</value>
+         <value>//div[@id='app']/section/section/main/div/div/div[2]/form/div/div[2]/div/div/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,73 +24,59 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>class</name>
       <type>Main</type>
-      <value>API接入文档</value>
+      <value>ant-input-affix-wrapper ant-input-affix-wrapper-focused pro-field pro-field-lg</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/section[@class=&quot;ant-layout ant-layout-has-sider&quot;]/section[@class=&quot;ant-layout&quot;]/main[@class=&quot;ant-layout-content _1M9q2B1DDgoOXtVE42bBZR pageMain&quot;]/div[1]/div[@class=&quot;_1z87N16j3eIkeBNW8uDLp5&quot;]/div[@class=&quot;headerdown&quot;]/div[2]/button[@class=&quot;ant-btn&quot;]/span[1]</value>
+      <value>id(&quot;app&quot;)/section[@class=&quot;ant-layout ant-layout-has-sider&quot;]/section[@class=&quot;ant-layout&quot;]/main[@class=&quot;ant-layout-content _1M9q2B1DDgoOXtVE42bBZR pageMain&quot;]/div[1]/div[@class=&quot;_1Oc3Qsrikn4hSsxpjJiwvS&quot;]/div[@class=&quot;content&quot;]/form[@class=&quot;ant-form ant-form-horizontal&quot;]/div[@class=&quot;ant-row ant-form-item&quot;]/div[@class=&quot;ant-col ant-col-14 ant-form-item-control&quot;]/div[@class=&quot;ant-form-item-control-input&quot;]/div[@class=&quot;ant-form-item-control-input-content&quot;]/span[@class=&quot;ant-input-affix-wrapper ant-input-affix-wrapper-focused pro-field pro-field-lg&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/section/section/main/div/div/div[2]/div[2]/button/span</value>
+      <value>//div[@id='app']/section/section/main/div/div/div[2]/form/div/div[2]/div/div/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='文件导入'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='标签名称'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='管理员'])[1]/following::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='保 存'])[1]/following::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='实施方案'])[1]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='标签Code'])[1]/preceding::span[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='设置 Zetta Decision'])[1]/preceding::span[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='API接入文档']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='标签路径'])[1]/preceding::span[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/button/span</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//span[(text() = 'API接入文档' or . = 'API接入文档')]</value>
+      <value>//div[2]/div/div/span</value>
    </webElementXpaths>
 </WebElementEntity>

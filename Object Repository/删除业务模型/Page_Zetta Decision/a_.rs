@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Password_loginPwd (1)</name>
+   <name>a_</name>
    <tag></tag>
-   <elementGuidId>18f910b4-bc66-4585-91e0-346739462c5d</elementGuidId>
+   <elementGuidId>13a793df-a302-461e-bd78-1aa81c5ed0d7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#loginPwd</value>
+         <value>li.ant-menu-item.ant-menu-item-active.ant-menu-item-only-child > span.ant-menu-title-content > a</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='loginPwd']</value>
+         <value>//div[@id='app']/section/aside/div/div/ul/li[3]/span/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,83 +21,76 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>href</name>
       <type>Main</type>
-      <value>请输入密码！</value>
+      <value>/clickzetta/tag</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>text</name>
       <type>Main</type>
-      <value>loginPwd</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>action</name>
-      <type>Main</type>
-      <value>click</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>password</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>ant-input ant-input-lg</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>1</value>
+      <value>标签体系</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;loginPwd&quot;)</value>
+      <value>id(&quot;app&quot;)/section[@class=&quot;ant-layout ant-layout-has-sider&quot;]/aside[@class=&quot;ant-layout-sider ant-layout-sider-light _3VTp_dVdu2Xphgk2GC_-cQ&quot;]/div[@class=&quot;ant-layout-sider-children&quot;]/div[@class=&quot;_1N-2gdZCm_MLrOTi21oeaV&quot;]/ul[@class=&quot;ant-menu ant-menu-root ant-menu-inline ant-menu-light&quot;]/li[@class=&quot;ant-menu-item ant-menu-item-active ant-menu-item-only-child&quot;]/span[@class=&quot;ant-menu-title-content&quot;]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//input[@id='loginPwd']</value>
+      <value>//div[@id='app']/section/aside/div/div/ul/li[3]/span/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div/div/div/div[2]/form/div[2]/div[2]/div/div/span/input</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='个体画像'])[1]/following::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='工作台'])[1]/following::a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='智能决策'])[1]/preceding::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/clickzetta/tag')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div[2]/div/div/span/input</value>
+      <value>//li[3]/span/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@placeholder = '请输入密码！' and @id = 'loginPwd' and @type = 'password']</value>
+      <value>//a[@href = '/clickzetta/tag' and (text() = '标签体系' or . = '标签体系')]</value>
    </webElementXpaths>
 </WebElementEntity>

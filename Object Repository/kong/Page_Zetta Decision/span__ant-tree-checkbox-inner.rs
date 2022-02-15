@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span__ant-tree-checkbox-inner</name>
+   <tag></tag>
+   <elementGuidId>886ae280-b775-49a0-9001-08d6823de3b9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.ant-tree-checkbox-inner</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/span[3]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-tree-checkbox-inner</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;&quot;]/body[1]/div[5]/div[1]/div[@class=&quot;ant-dropdown ant-dropdown-placement-topRight&quot;]/div[@class=&quot;topRight&quot;]/div[@class=&quot;ant-tree ant-tree-icon-hide&quot;]/div[@class=&quot;ant-tree-list&quot;]/div[@class=&quot;ant-tree-list-holder&quot;]/div[1]/div[@class=&quot;ant-tree-list-holder-inner&quot;]/div[@class=&quot;ant-tree-treenode ant-tree-treenode-switcher-open ant-tree-treenode-leaf-last&quot;]/span[@class=&quot;ant-tree-checkbox&quot;]/span[@class=&quot;ant-tree-checkbox-inner&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/span[3]/span</value>
+   </webElementXpaths>
+</WebElementEntity>
