@@ -3,15 +3,15 @@
    <description></description>
    <name>span_</name>
    <tag></tag>
-   <elementGuidId>a9d2cb2d-9eb6-4ac2-8d1c-b98a3dc11b8e</elementGuidId>
+   <elementGuidId>89b83335-5f71-496c-910b-3152a4c65bde</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.ant-btn.ant-btn-primary.ant-btn-lg > span</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div/div/div/div/div/div/div[2]/form/button/span</value>
+         <value>//div[@id='app']/section/section/main/div/div/div/div[2]/div/button/span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,55 +28,69 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>登 录</value>
+      <value>新建标签</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;ant-spin-nested-loading&quot;]/div[@class=&quot;ant-spin-container&quot;]/div[@class=&quot;_3I1dorHUdZGla-PdYRnoFY&quot;]/div[@class=&quot;_3TYSU4XRkhKT44O5NezCGi&quot;]/div[@class=&quot;_2Dx8VMqojehflcUMzMcOve&quot;]/div[@class=&quot;ant-pro-form-login-container&quot;]/div[@class=&quot;ant-pro-form-login-main&quot;]/form[@class=&quot;ant-form ant-form-vertical&quot;]/button[@class=&quot;ant-btn ant-btn-primary ant-btn-lg&quot;]/span[1]</value>
+      <value>id(&quot;app&quot;)/section[@class=&quot;ant-layout ant-layout-has-sider&quot;]/section[@class=&quot;ant-layout&quot;]/main[@class=&quot;ant-layout-content _1M9q2B1DDgoOXtVE42bBZR pageMain&quot;]/div[1]/div[@class=&quot;_3EL9wyViIuJ_9tcu4-GtzO&quot;]/div[@class=&quot;header&quot;]/div[@class=&quot;tools-area&quot;]/div[1]/button[@class=&quot;ant-btn ant-btn-primary&quot;]/span[2]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div/div/div/div[2]/form/button/span</value>
+      <value>//div[@id='app']/section/section/main/div/div/div/div[2]/div/button/span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::span[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='主体：konguser3'])[1]/following::span[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/following::span[7]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='管理员'])[1]/following::span[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='登 录']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='全部标签（1）'])[1]/preceding::span[9]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='主体ID'])[1]/preceding::span[17]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='新建标签']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button/span</value>
+      <value>//div[2]/div/button/span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = '登 录' or . = '登 录')]</value>
+      <value>//span[(text() = '新建标签' or . = '新建标签')]</value>
    </webElementXpaths>
 </WebElementEntity>

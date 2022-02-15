@@ -3,7 +3,7 @@
    <description></description>
    <name>button_</name>
    <tag></tag>
-   <elementGuidId>edc1dc3f-6170-4ce5-a7ca-f5e291cd5dab</elementGuidId>
+   <elementGuidId>6f1080f3-677b-4895-88de-7d286a05ac1f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>

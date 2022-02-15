@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Password_loginPwd</name>
    <tag></tag>
-   <elementGuidId>c5e79768-9c29-44c7-8590-ea751a3ce71d</elementGuidId>
+   <elementGuidId>eb994b70-c1db-424f-be0c-ff51f84e59aa</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>

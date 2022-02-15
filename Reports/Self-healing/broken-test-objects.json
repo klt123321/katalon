@@ -9,6 +9,116 @@
       "proposedLocatorMethod": "CSS",
       "recoveryMethod": "CSS",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Zetta Decision/path_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/ZD/Page_Zetta Decision/span_",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/section/section/main/div/div/div/button/span[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027管理员\u0027])[1]/following::span[10]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/ZD/Page_Zetta Decision/span__neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/klt/Page_Zetta Decision/span__1_2_3",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027标签描述\u0027])[1]/following::span[6]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "span.text-span.basic",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/klt/Page_Zetta Decision/span__1_2_3_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/klt/Page_Zetta Decision/span_",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/section/section/main/div/div/div/button/span[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027管理员\u0027])[1]/following::span[10]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/klt/Page_Zetta Decision/span__neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/klt/Page_Zetta Decision/div_",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027int\u0027])[1]/following::div[6]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/div[2]/div/div/div/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/klt/Page_Zetta Decision/span_kong",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/section/section/main/div/div/div/div/div/button/span[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027管理员\u0027])[1]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/klt/Page_Zetta Decision/span_kong_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/klt/Page_Zetta Decision/span__1 - Copy",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/section/section/main/div/div/div[2]/form/div[3]/div[2]/div/div/div/",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027管理员\u0027])[1]/following::span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/klt/Page_Zetta Decision/span__1 - Copy_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Zetta Decision/div_",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027int\u0027])[1]/following::div[6]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/div[2]/div/div/div/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/kong/Page_Zetta Decision/div__1 - Copy",
+      "brokenLocator": "//*[@id\u003d\"rc_select_1\"]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027int\u0027])[1]/following::div[6]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/kong/Page_Zetta Decision/span__1",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/section/section/main/div/div/div/div/div/div[2]/button/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027管理员\u0027])[1]/following::span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/kong/Page_Zetta Decision/span__1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/kong/Page_Zetta Decision/check_1",
+      "brokenLocator": "//*[@id\u003d\"app\"]/section/section/main/div/div/div[2]/div/div/div/div/div/div/table/tbody/tr[data-row-key\u003d\"konguser1\"]/td[5]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027管理员\u0027])[1]/following::span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/kong/Page_Zetta Decision/check_1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/kong/Page_Zetta Decision/svg",
+      "brokenLocator": "//*[@id\u003d\"app\"]/section/section/main/div/div/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[3]/span[3]/span/div/div[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027请添加\u0027])[1]/following::*[name()\u003d\u0027svg\u0027][1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/kong/Page_Zetta Decision/svg_neighbor.png"
     }
   ]
 }
