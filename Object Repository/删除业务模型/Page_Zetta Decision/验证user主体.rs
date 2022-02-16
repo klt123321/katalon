@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>svg</name>
+   <name>验证user主体</name>
    <tag></tag>
-   <elementGuidId>7e36bac3-e4e1-446f-a249-83c6b58229d3</elementGuidId>
+   <elementGuidId>37d48abe-0c6c-4c12-a27e-a866249e641d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;app&quot;]/section/section/main/div/div/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[3]/span[3]/span/div/div[2]/span</value>
+         <value>//*[@id=&quot;app&quot;]/section/section/main/div/div/div[2]/div/div/div/div/div/div/table/tbody/tr[@data-row-key=&quot;taouser1&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

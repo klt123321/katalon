@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a__1</name>
+   <name>span__1_2 - Copy</name>
    <tag></tag>
-   <elementGuidId>19ad10a6-71a9-4bb6-8e0e-d2e327b7cf11</elementGuidId>
+   <elementGuidId>5fdad6a2-d6b3-41b9-a12d-e20a8bbe94bc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>a.Jo2M1VbhxlzhKmjrXJs0N</value>
+         <value>button.ant-btn.ant-btn-primary.ant-btn-dangerous > span</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[3]/div/div/ul/li/span/a</value>
+         <value>/html/body/div[5]/div/div[2]/div/div[2]/div/div/div[2]/button[2]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,55 +21,55 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>Jo2M1VbhxlzhKmjrXJs0N</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>删除</value>
+      <value>删 除</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;&quot;]/body[1]/div[4]/div[1]/div[@class=&quot;ant-dropdown ant-dropdown-placement-bottomLeft&quot;]/ul[@class=&quot;ant-dropdown-menu ant-dropdown-menu-root ant-dropdown-menu-vertical ant-dropdown-menu-light&quot;]/li[@class=&quot;ant-dropdown-menu-item ant-dropdown-menu-item-active ant-dropdown-menu-item-only-child&quot;]/span[@class=&quot;ant-dropdown-menu-title-content&quot;]/a[@class=&quot;Jo2M1VbhxlzhKmjrXJs0N&quot;]</value>
+      <value>/html[@class=&quot;&quot;]/body[@class=&quot;ant-scrolling-effect&quot;]/div[6]/div[@class=&quot;ant-modal-root&quot;]/div[@class=&quot;ant-modal-wrap&quot;]/div[@class=&quot;ant-modal ant-modal-confirm ant-modal-confirm-confirm&quot;]/div[@class=&quot;ant-modal-content&quot;]/div[@class=&quot;ant-modal-body&quot;]/div[@class=&quot;ant-modal-confirm-body-wrapper&quot;]/div[@class=&quot;ant-modal-confirm-btns&quot;]/button[@class=&quot;ant-btn ant-btn-primary ant-btn-dangerous&quot;]/span[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='暂无数据'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='取 消'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='操作'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='确认删除“taouser1”这个主体吗?'])[1]/following::span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='删 除']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/div/div/ul/li/span/a</value>
+      <value>//button[2]/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[(text() = '删除' or . = '删除')]</value>
+      <value>//span[(text() = '删 除' or . = '删 除')]</value>
    </webElementXpaths>
 </WebElementEntity>

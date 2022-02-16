@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>svg</name>
+   <name>删除视频主体</name>
    <tag></tag>
-   <elementGuidId>7e36bac3-e4e1-446f-a249-83c6b58229d3</elementGuidId>
+   <elementGuidId>cd03d25a-8926-4900-8ca8-bb7a8a67787c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;app&quot;]/section/section/main/div/div/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[3]/span[3]/span/div/div[2]/span</value>
+         <value>//*[@id=&quot;app&quot;]/section/section/main/div/div/div[2]/div/div/div/div/div/div/table/tbody/tr[@data-row-key=&quot;taovideo1&quot;]/td[6]/span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;app&quot;]/section/section/main/div/div/div[2]/div/div/div/div/div/div/table/tbody/tr[@data-row-key=&quot;konguser1&quot;]/td[5]</value>
+         <value>//*[@id=&quot;app&quot;]/section/section/main/div/div/div[2]/div/div/div/div/div/div/table/tbody/tr[@data-row-key=&quot;taouser1&quot;]/td[5]</value>
       </entry>
       <entry>
          <key>BASIC</key>

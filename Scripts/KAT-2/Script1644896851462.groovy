@@ -27,11 +27,25 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Zetta Decision/inp
 
 WebUI.click(findTestObject('Object Repository/Page_Zetta Decision/button_'))
 
-WebUI.click(findTestObject('Object Repository/删除业务模型/Page_Zetta Decision/a_'))
+WebUI.click(findTestObject('删除业务模型/Page_Zetta Decision/span__1 - Copy'))
 
-WebUI.mouseOver(findTestObject('删除业务模型/Page_Zetta Decision/svg - Copy'))
+'删除user主体'
+WebUI.click(findTestObject('删除业务模型/Page_Zetta Decision/删除主体'))
 
-WebUI.click(findTestObject('Object Repository/删除业务模型/Page_Zetta Decision/svg'))
+WebUI.clickOffset(findTestObject('删除业务模型/Page_Zetta Decision/删除主体_1'), 0, 0)
 
-WebUI.click(findTestObject('Object Repository/删除业务模型/Page_Zetta Decision/a__1'))
+WebUI.clickOffset(findTestObject('删除业务模型/Page_Zetta Decision/删除主体_1 - Copy'), 0, 0)
+
+'删除视频主体'
+WebUI.click(findTestObject('删除业务模型/Page_Zetta Decision/删除视频主体'))
+
+WebUI.clickOffset(findTestObject('删除业务模型/Page_Zetta Decision/删除视频主体_1'), 0, 0)
+
+WebUI.clickOffset(findTestObject('删除业务模型/Page_Zetta Decision/删除主体_1 - Copy - Copy'), 0, 0)
+
+'验证user被删除'
+WebUI.verifyElementNotPresent(findTestObject('删除业务模型/Page_Zetta Decision/验证user主体'), 5)
+
+'验证user被删除'
+WebUI.verifyElementNotPresent(findTestObject('删除业务模型/Page_Zetta Decision/验证视频主体'), 5)
 

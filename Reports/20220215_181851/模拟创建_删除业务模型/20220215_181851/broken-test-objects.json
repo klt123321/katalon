@@ -1,0 +1,64 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/kong/Page_Zetta Decision/span__1",
+      "brokenLocator": "//*[@id\u003d\"app\"]/section/section/main/div/div/div[1]/div[2]/button/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027管理员\u0027])[1]/following::span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220215_181851/模拟创建_删除业务模型/20220215_181851/Object Repository/kong/Page_Zetta Decision/span__1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/kong/Page_Zetta Decision/svg",
+      "brokenLocator": "//*[@id\u003d\"app\"]/section/section/main/div/div/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[3]/span[3]/span/div/div[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027请添加\u0027])[1]/following::*[name()\u003d\u0027svg\u0027][1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220215_181851/模拟创建_删除业务模型/20220215_181851/Object Repository/kong/Page_Zetta Decision/svg_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/删除业务模型/Page_Zetta Decision/span__1_2 - Copy",
+      "brokenLocator": "/html/body/div[5]/div/div[2]/div/div[2]/div/div/div[2]/button[2]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027取 消\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220215_181851/模拟创建_删除业务模型/20220215_181851/Object Repository/删除业务模型/Page_Zetta Decision/span__1_2 - Copy_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/删除业务模型/Page_Zetta Decision/a__1",
+      "brokenLocator": "/html/body/div[3]/div/div/ul/li/span/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027操作\u0027])[1]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220215_181851/模拟创建_删除业务模型/20220215_181851/Object Repository/删除业务模型/Page_Zetta Decision/a__1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/删除业务模型/Page_Zetta Decision/删除主体_1",
+      "brokenLocator": "/html/body/div[3]/div/div/ul/li/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027手机号\u0027])[1]/following::*[name()\u003d\u0027svg\u0027][1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220215_181851/模拟创建_删除业务模型/20220215_181851/Object Repository/删除业务模型/Page_Zetta Decision/删除主体_1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/删除业务模型/Page_Zetta Decision/删除主体_1 - Copy",
+      "brokenLocator": "/html/body/div[4]/div/div[2]/div/div[2]/div/div/div[2]/button[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027手机号\u0027])[1]/following::*[name()\u003d\u0027svg\u0027][1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220215_181851/模拟创建_删除业务模型/20220215_181851/Object Repository/删除业务模型/Page_Zetta Decision/删除主体_1 - Copy_neighbor.png"
+    }
+  ]
+}

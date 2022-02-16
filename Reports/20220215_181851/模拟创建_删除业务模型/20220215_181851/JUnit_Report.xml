@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="模拟创建_删除业务模型" time="483.346" tests="2" failures="1" errors="0">
+   <testsuite name="模拟创建_删除业务模型" tests="2" failures="1" errors="0" time="483.346" skipped="0" timestamp="2022-02-15 18:18:55" hostname="klt - kltdeair" id="Test Suites/模拟创建_删除业务模型">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/klt/git/katalon/Reports/20220215_181851/\u6A21\u62DF\u521B\u5EFA_\u5220\u9664\u4E1A\u52A1\u6A21\u578B/20220215_181851"/>
+         <property name="logFiles" value="/Users/klt/git/katalon/Reports/20220215_181851/\u6A21\u62DF\u521B\u5EFA_\u5220\u9664\u4E1A\u52A1\u6A21\u578B/20220215_181851/execution0.log"/>
+         <property name="attachments" value="/Users/klt/git/katalon/Reports/20220215_181851/\u6A21\u62DF\u521B\u5EFA_\u5220\u9664\u4E1A\u52A1\u6A21\u578B/20220215_181851/1644920782469.png, /Users/klt/git/katalon/Reports/20220215_181851/\u6A21\u62DF\u521B\u5EFA_\u5220\u9664\u4E1A\u52A1\u6A21\u578B/20220215_181851/1644920783024.png"/>
+         <property name="hostName" value="klt - kltdeair"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 98.0.4758.80"/>
+         <property name="hostAddress" value="192.168.31.166"/>
+         <property name="sessionId" value="59ed366b501cfef2c9d4fcd9c595b06f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/配置业务模型" time="159.47" classname="Test Cases/配置业务模型" status="PASSED">
+         <system-out><![CDATA[2022-02-15 18:18:55 - [TEST_CASE][PASSED] - Test Cases/配置业务模型: Test Cases/配置业务模型
+
+2022-02-15 18:18:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-15 18:18:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-15 18:18:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-15 18:19:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-15 18:19:02 - [TEST_STEP][PASSED] - navigateToUrl("http://121.40.154.50:8049/login"): Navigate to 'http://121.40.154.50:8049/login' successfully
+
+2022-02-15 18:19:05 - [MESSAGE][PASSED] - Navigate to 'http://121.40.154.50:8049/login' successfully
+
+2022-02-15 18:19:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/kong/Page_Zetta Decision/input_Name_loginName"), "13666666666"): Text '13666666666' is set on object 'Object Repository/kong/Page_Zetta Decision/input_Name_loginName'
+
+2022-02-15 18:19:08 - [MESSAGE][PASSED] - Text '13666666666' is set on object 'Object Repository/kong/Page_Zetta Decision/input_Name_loginName'
+
+2022-02-15 18:19:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/kong/Page_Zetta Decision/input_Password_loginPwd"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/kong/Page_Zetta Decision/input_Password_loginPwd'
+
+2022-02-15 18:19:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/kong/Page_Zetta Decision/input_Password_loginPwd'
+
+2022-02-15 18:19:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/kong/Page_Zetta Decision/button_")): Object: 'Object Repository/kong/Page_Zetta Decision/button_' is clicked on
+
+2022-02-15 18:19:10 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/button_' is clicked on
+
+2022-02-15 18:19:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/kong/Page_Zetta Decision/a_")): Object: 'Object Repository/kong/Page_Zetta Decision/a_' is clicked on
+
+2022-02-15 18:19:12 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/a_' is clicked on
+
+2022-02-15 18:19:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/kong/Page_Zetta Decision/span_")): Object: 'Object Repository/kong/Page_Zetta Decision/span_' is clicked on
+
+2022-02-15 18:19:14 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/span_' is clicked on
+
+2022-02-15 18:19:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/kong/Page_Zetta Decision/input__modelName"), "taouser1"): Text 'taouser1' is set on object 'Object Repository/kong/Page_Zetta Decision/input__modelName'
+
+2022-02-15 18:19:15 - [MESSAGE][PASSED] - Text 'taouser1' is set on object 'Object Repository/kong/Page_Zetta Decision/input__modelName'
+
+2022-02-15 18:19:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/kong/Page_Zetta Decision/input_Code_modelCode"), "taouser1"): Text 'taouser1' is set on object 'Object Repository/kong/Page_Zetta Decision/input_Code_modelCode'
+
+2022-02-15 18:19:16 - [MESSAGE][PASSED] - Text 'taouser1' is set on object 'Object Repository/kong/Page_Zetta Decision/input_Code_modelCode'
+
+2022-02-15 18:19:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/kong/Page_Zetta Decision/div_CodeIDIDIDID")): Object: 'Object Repository/kong/Page_Zetta Decision/div_CodeIDIDIDID' is clicked on
+
+2022-02-15 18:19:16 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/div_CodeIDIDIDID' is clicked on
+
+2022-02-15 18:19:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/kong/Page_Zetta Decision/button__1")): Object: 'Object Repository/kong/Page_Zetta Decision/button__1' is clicked on
+
+2022-02-15 18:19:17 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/button__1' is clicked on
+
+2022-02-15 18:19:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/kong/Page_Zetta Decision/span_")): Object: 'Object Repository/kong/Page_Zetta Decision/span_' is clicked on
+
+2022-02-15 18:19:18 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/span_' is clicked on
+
+2022-02-15 18:19:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/kong/Page_Zetta Decision/input__modelName"), "涛视频1"): Text '涛视频1' is set on object 'Object Repository/kong/Page_Zetta Decision/input__modelName'
+
+2022-02-15 18:19:20 - [MESSAGE][PASSED] - Text '涛视频1' is set on object 'Object Repository/kong/Page_Zetta Decision/input__modelName'
+
+2022-02-15 18:19:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/kong/Page_Zetta Decision/input_Code_modelCode"), "taovideo1"): Text 'taovideo1' is set on object 'Object Repository/kong/Page_Zetta Decision/input_Code_modelCode'
+
+2022-02-15 18:19:21 - [MESSAGE][PASSED] - Text 'taovideo1' is set on object 'Object Repository/kong/Page_Zetta Decision/input_Code_modelCode'
+
+2022-02-15 18:19:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/kong/Page_Zetta Decision/span__1")): Object: 'Object Repository/kong/Page_Zetta Decision/span__1' is clicked on
+
+2022-02-15 18:19:52 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="app"]/section/section/main/div/div/div[1]/div[2]/button/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-15 18:19:52 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/kong/Page_Zetta Decision/span__1'. Try using Self-healing.
+
+2022-02-15 18:19:52 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/kong/Page_Zetta Decision/span__1' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='管理员'])[1]/following::span[3]'.
+
+2022-02-15 18:19:52 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/span__1' is clicked on
+
+2022-02-15 18:19:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/kong/Page_Zetta Decision/a__1")): Object: 'Object Repository/kong/Page_Zetta Decision/a__1' is clicked on
+
+2022-02-15 18:19:54 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/a__1' is clicked on
+
+2022-02-15 18:19:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/kong/Page_Zetta Decision/span__1_2")): Object: 'Object Repository/kong/Page_Zetta Decision/span__1_2' is clicked on
+
+2022-02-15 18:19:56 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/span__1_2' is clicked on
+
+2022-02-15 18:19:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/kong/Page_Zetta Decision/span_taouser")): Object: 'Object Repository/kong/Page_Zetta Decision/span_taouser' is clicked on
+
+2022-02-15 18:19:56 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/span_taouser' is clicked on
+
+2022-02-15 18:19:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/kong/Page_Zetta Decision/span__1_2_3")): Object: 'Object Repository/kong/Page_Zetta Decision/span__1_2_3' is clicked on
+
+2022-02-15 18:19:57 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/span__1_2_3' is clicked on
+
+2022-02-15 18:19:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/kong/Page_Zetta Decision/span__ant-input-affix-wrapper ant-input-aff_46c20f")): Object: 'Object Repository/kong/Page_Zetta Decision/span__ant-input-affix-wrapper ant-input-aff_46c20f' is clicked on
+
+2022-02-15 18:19:58 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/span__ant-input-affix-wrapper ant-input-aff_46c20f' is clicked on
+
+2022-02-15 18:19:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/kong/Page_Zetta Decision/input__name"), "手机号"): Text '手机号' is set on object 'Object Repository/kong/Page_Zetta Decision/input__name'
+
+2022-02-15 18:19:59 - [MESSAGE][PASSED] - Text '手机号' is set on object 'Object Repository/kong/Page_Zetta Decision/input__name'
+
+2022-02-15 18:19:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/kong/Page_Zetta Decision/input_Code_code"), "phone"): Text 'phone' is set on object 'Object Repository/kong/Page_Zetta Decision/input_Code_code'
+
+2022-02-15 18:20:00 - [MESSAGE][PASSED] - Text 'phone' is set on object 'Object Repository/kong/Page_Zetta Decision/input_Code_code'
+
+2022-02-15 18:20:00 - [TEST_STEP][PASSED] - click(findTestObject("kong/Page_Zetta Decision/div_ - Copy")): Object: 'Object Repository/kong/Page_Zetta Decision/div_ - Copy' is clicked on
+
+2022-02-15 18:20:00 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/div_ - Copy' is clicked on
+
+2022-02-15 18:20:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/kong/Page_Zetta Decision/div_")): Object: 'Object Repository/kong/Page_Zetta Decision/div_' is clicked on
+
+2022-02-15 18:20:01 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/div_' is clicked on
+
+2022-02-15 18:20:01 - [TEST_STEP][PASSED] - click(findTestObject("kong/Page_Zetta Decision/div__1 - Copy")): Object: 'Object Repository/kong/Page_Zetta Decision/div__1 - Copy' is clicked on
+
+2022-02-15 18:20:01 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/div__1 - Copy' is clicked on
+
+2022-02-15 18:20:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/kong/Page_Zetta Decision/div__1")): Object: 'Object Repository/kong/Page_Zetta Decision/div__1' is clicked on
+
+2022-02-15 18:20:02 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/div__1' is clicked on
+
+2022-02-15 18:20:02 - [TEST_STEP][PASSED] - click(findTestObject("kong/Page_Zetta Decision/button__unique")): Object: 'Object Repository/kong/Page_Zetta Decision/button__unique' is clicked on
+
+2022-02-15 18:20:02 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/button__unique' is clicked on
+
+2022-02-15 18:20:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/kong/Page_Zetta Decision/button__1")): Object: 'Object Repository/kong/Page_Zetta Decision/button__1' is clicked on
+
+2022-02-15 18:20:03 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/button__1' is clicked on
+
+2022-02-15 18:20:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/kong/Page_Zetta Decision/span__1_2_3")): Object: 'Object Repository/kong/Page_Zetta Decision/span__1_2_3' is clicked on
+
+2022-02-15 18:20:05 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/span__1_2_3' is clicked on
+
+2022-02-15 18:20:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/kong/Page_Zetta Decision/input__name"), "年龄"): Text '年龄' is set on object 'Object Repository/kong/Page_Zetta Decision/input__name'
+
+2022-02-15 18:20:07 - [MESSAGE][PASSED] - Text '年龄' is set on object 'Object Repository/kong/Page_Zetta Decision/input__name'
+
+2022-02-15 18:20:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/kong/Page_Zetta Decision/input_Code_code"), "age"): Text 'age' is set on object 'Object Repository/kong/Page_Zetta Decision/input_Code_code'
+
+2022-02-15 18:20:08 - [MESSAGE][PASSED] - Text 'age' is set on object 'Object Repository/kong/Page_Zetta Decision/input_Code_code'
+
+2022-02-15 18:20:08 - [TEST_STEP][PASSED] - click(findTestObject("kong/Page_Zetta Decision/div_ - Copy")): Object: 'Object Repository/kong/Page_Zetta Decision/div_ - Copy' is clicked on
+
+2022-02-15 18:20:08 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/div_ - Copy' is clicked on
+
+2022-02-15 18:20:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/kong/Page_Zetta Decision/span__1_2_3_4")): Object: 'Object Repository/kong/Page_Zetta Decision/span__1_2_3_4' is clicked on
+
+2022-02-15 18:20:09 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/span__1_2_3_4' is clicked on
+
+2022-02-15 18:20:09 - [TEST_STEP][PASSED] - click(findTestObject("kong/Page_Zetta Decision/div__1 - Copy")): Object: 'Object Repository/kong/Page_Zetta Decision/div__1 - Copy' is clicked on
+
+2022-02-15 18:20:09 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/div__1 - Copy' is clicked on
+
+2022-02-15 18:20:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/kong/Page_Zetta Decision/div__1")): Object: 'Object Repository/kong/Page_Zetta Decision/div__1' is clicked on
+
+2022-02-15 18:20:10 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/div__1' is clicked on
+
+2022-02-15 18:20:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/kong/Page_Zetta Decision/span__1")): Object: 'Object Repository/kong/Page_Zetta Decision/span__1' is clicked on
+
+2022-02-15 18:20:11 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/span__1' is clicked on
+
+2022-02-15 18:20:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/kong/Page_Zetta Decision/span__1_2_3")): Object: 'Object Repository/kong/Page_Zetta Decision/span__1_2_3' is clicked on
+
+2022-02-15 18:20:13 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/span__1_2_3' is clicked on
+
+2022-02-15 18:20:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/kong/Page_Zetta Decision/input__name"), "姓名"): Text '姓名' is set on object 'Object Repository/kong/Page_Zetta Decision/input__name'
+
+2022-02-15 18:20:15 - [MESSAGE][PASSED] - Text '姓名' is set on object 'Object Repository/kong/Page_Zetta Decision/input__name'
+
+2022-02-15 18:20:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/kong/Page_Zetta Decision/input_Code_code"), "name"): Text 'name' is set on object 'Object Repository/kong/Page_Zetta Decision/input_Code_code'
+
+2022-02-15 18:20:16 - [MESSAGE][PASSED] - Text 'name' is set on object 'Object Repository/kong/Page_Zetta Decision/input_Code_code'
+
+2022-02-15 18:20:16 - [TEST_STEP][PASSED] - click(findTestObject("kong/Page_Zetta Decision/div_ - Copy")): Object: 'Object Repository/kong/Page_Zetta Decision/div_ - Copy' is clicked on
+
+2022-02-15 18:20:16 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/div_ - Copy' is clicked on
+
+2022-02-15 18:20:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/kong/Page_Zetta Decision/span__1_2_3_4")): Object: 'Object Repository/kong/Page_Zetta Decision/span__1_2_3_4' is clicked on
+
+2022-02-15 18:20:16 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/span__1_2_3_4' is clicked on
+
+2022-02-15 18:20:16 - [TEST_STEP][PASSED] - click(findTestObject("kong/Page_Zetta Decision/div__1 - Copy")): Object: 'Object Repository/kong/Page_Zetta Decision/div__1 - Copy' is clicked on
+
+2022-02-15 18:20:17 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/div__1 - Copy' is clicked on
+
+2022-02-15 18:20:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/kong/Page_Zetta Decision/div__1")): Object: 'Object Repository/kong/Page_Zetta Decision/div__1' is clicked on
+
+2022-02-15 18:20:18 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/div__1' is clicked on
+
+2022-02-15 18:20:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/kong/Page_Zetta Decision/span__1")): Object: 'Object Repository/kong/Page_Zetta Decision/span__1' is clicked on
+
+2022-02-15 18:20:18 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/span__1' is clicked on
+
+2022-02-15 18:20:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/kong/Page_Zetta Decision/span__1_2_3")): Object: 'Object Repository/kong/Page_Zetta Decision/span__1_2_3' is clicked on
+
+2022-02-15 18:20:20 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/span__1_2_3' is clicked on
+
+2022-02-15 18:20:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/kong/Page_Zetta Decision/input__name"), "兴趣爱好"): Text '兴趣爱好' is set on object 'Object Repository/kong/Page_Zetta Decision/input__name'
+
+2022-02-15 18:20:21 - [MESSAGE][PASSED] - Text '兴趣爱好' is set on object 'Object Repository/kong/Page_Zetta Decision/input__name'
+
+2022-02-15 18:20:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/kong/Page_Zetta Decision/input_Code_code"), "interests"): Text 'interests' is set on object 'Object Repository/kong/Page_Zetta Decision/input_Code_code'
+
+2022-02-15 18:20:23 - [MESSAGE][PASSED] - Text 'interests' is set on object 'Object Repository/kong/Page_Zetta Decision/input_Code_code'
+
+2022-02-15 18:20:23 - [TEST_STEP][PASSED] - click(findTestObject("kong/Page_Zetta Decision/div_ - Copy")): Object: 'Object Repository/kong/Page_Zetta Decision/div_ - Copy' is clicked on
+
+2022-02-15 18:20:23 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/div_ - Copy' is clicked on
+
+2022-02-15 18:20:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/kong/Page_Zetta Decision/div_")): Object: 'Object Repository/kong/Page_Zetta Decision/div_' is clicked on
+
+2022-02-15 18:20:24 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/div_' is clicked on
+
+2022-02-15 18:20:24 - [TEST_STEP][PASSED] - click(findTestObject("kong/Page_Zetta Decision/div__1 - Copy")): Object: 'Object Repository/kong/Page_Zetta Decision/div__1 - Copy' is clicked on
+
+2022-02-15 18:20:24 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/div__1 - Copy' is clicked on
+
+2022-02-15 18:20:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/kong/Page_Zetta Decision/div__1")): Object: 'Object Repository/kong/Page_Zetta Decision/div__1' is clicked on
+
+2022-02-15 18:20:25 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/div__1' is clicked on
+
+2022-02-15 18:20:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/kong/Page_Zetta Decision/span__1")): Object: 'Object Repository/kong/Page_Zetta Decision/span__1' is clicked on
+
+2022-02-15 18:20:26 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/span__1' is clicked on
+
+2022-02-15 18:20:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/kong/Page_Zetta Decision/a_")): Object: 'Object Repository/kong/Page_Zetta Decision/a_' is clicked on
+
+2022-02-15 18:20:28 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/a_' is clicked on
+
+2022-02-15 18:20:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/kong/Page_Zetta Decision/span__1_2_3_4_5")): Object: 'Object Repository/kong/Page_Zetta Decision/span__1_2_3_4_5' is clicked on
+
+2022-02-15 18:20:28 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/span__1_2_3_4_5' is clicked on
+
+2022-02-15 18:20:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/kong/Page_Zetta Decision/svg")): Object: 'Object Repository/kong/Page_Zetta Decision/svg' is clicked on
+
+2022-02-15 18:21:00 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="app"]/section/section/main/div/div/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[3]/span[3]/span/div/div[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-15 18:21:00 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/kong/Page_Zetta Decision/svg'. Try using Self-healing.
+
+2022-02-15 18:21:00 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/kong/Page_Zetta Decision/svg' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='请添加'])[1]/following::*[name()='svg'][1]'.
+
+2022-02-15 18:21:00 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/svg' is clicked on
+
+2022-02-15 18:21:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/kong/Page_Zetta Decision/span__ant-tree-checkbox-inner")): Object: 'Object Repository/kong/Page_Zetta Decision/span__ant-tree-checkbox-inner' is clicked on
+
+2022-02-15 18:21:01 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/span__ant-tree-checkbox-inner' is clicked on
+
+2022-02-15 18:21:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/kong/Page_Zetta Decision/span__1_2_3_4_5_6")): Object: 'Object Repository/kong/Page_Zetta Decision/span__1_2_3_4_5_6' is clicked on
+
+2022-02-15 18:21:02 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/span__1_2_3_4_5_6' is clicked on
+
+2022-02-15 18:21:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/kong/Page_Zetta Decision/span__1")): Object: 'Object Repository/kong/Page_Zetta Decision/span__1' is clicked on
+
+2022-02-15 18:21:33 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="app"]/section/section/main/div/div/div[1]/div[2]/button/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-15 18:21:33 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/kong/Page_Zetta Decision/span__1'. Try using Self-healing.
+
+2022-02-15 18:21:33 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/kong/Page_Zetta Decision/span__1' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='管理员'])[1]/following::span[3]'.
+
+2022-02-15 18:21:34 - [MESSAGE][PASSED] - Object: 'Object Repository/kong/Page_Zetta Decision/span__1' is clicked on
+
+2022-02-15 18:21:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("kong/Page_Zetta Decision/check_2"), "手机号"): Actual text and expected text of test object 'Object Repository/kong/Page_Zetta Decision/check_2' are matched.
+
+2022-02-15 18:21:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/kong/Page_Zetta Decision/check_2' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/删除业务模型" time="5.972" classname="Test Cases/删除业务模型" status="FAILED">
+         <failure type="FAILED" message="Test Cases/删除业务模型 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '13666666666' of object 'Object Repository/Page_Zetta Decision/input_Name_loginName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at 删除业务模型.run(删除业务模型:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644920331659.run(TempTestSuite1644920331659.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=98.0.4758.80)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'KltdeAir', ip: 'fe80:0:0:0:1035:e248:ce2d:dffe%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.80, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: /var/folders/qx/ww__kbyn11b...}, goog:chromeOptions: {debuggerAddress: localhost:59546}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 59ed366b501cfef2c9d4fcd9c595b06f
+*** Element info: {Using=xpath, value=//input[@id='loginName']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1016)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:911)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:894)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:889)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:885)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:733)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1365)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2022-02-15 18:26:52 - [TEST_CASE][FAILED] - Test Cases/删除业务模型: Test Cases/删除业务模型 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '13666666666' of object 'Object Repository/Page_Zetta Decision/input_Name_loginName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at 删除业务模型.run(删除业务模型:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644920331659.run(TempTestSuite1644920331659.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=98.0.4758.80)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'KltdeAir', ip: 'fe80:0:0:0:1035:e248:ce2d:dffe%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.80, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: /var/folders/qx/ww__kbyn11b...}, goog:chromeOptions: {debuggerAddress: localhost:59546}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 59ed366b501cfef2c9d4fcd9c595b06f
+*** Element info: {Using=xpath, value=//input[@id='loginName']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1016)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:911)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:894)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:889)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:885)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:733)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1365)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2022-02-15 18:26:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-15 18:26:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-02-15 18:26:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-15 18:26:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-15 18:26:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-15 18:26:55 - [TEST_STEP][PASSED] - navigateToUrl("http://121.40.154.50:8049/login"): Navigate to 'http://121.40.154.50:8049/login' successfully
+
+2022-02-15 18:26:58 - [MESSAGE][PASSED] - Navigate to 'http://121.40.154.50:8049/login' successfully
+
+2022-02-15 18:26:58 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/Page_Zetta Decision/input_Name_loginName"), "13666666666"): Unable to set text '13666666666' of object 'Object Repository/Page_Zetta Decision/input_Name_loginName' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '13666666666' of object 'Object Repository/Page_Zetta Decision/input_Name_loginName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at 删除业务模型.run(删除业务模型:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644920331659.run(TempTestSuite1644920331659.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=98.0.4758.80)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'KltdeAir', ip: 'fe80:0:0:0:1035:e248:ce2d:dffe%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.80, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: /var/folders/qx/ww__kbyn11b...}, goog:chromeOptions: {debuggerAddress: localhost:59546}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 59ed366b501cfef2c9d4fcd9c595b06f
+*** Element info: {Using=xpath, value=//input[@id='loginName']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1016)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:911)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:894)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:889)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:885)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:733)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1365)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1644920277897.run(Script1644920277897.groovy:24)
+	... 16 more
+)
+
+2022-02-15 18:26:58 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Zetta Decision/input_Name_loginName'. Try using Self-healing.
+
+2022-02-15 18:26:58 - [MESSAGE][WARNING] - [SELF-HEALING] no such window: window was already closed
+  (Session info: chrome=98.0.4758.80)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'KltdeAir', ip: 'fe80:0:0:0:1035:e248:ce2d:dffe%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.80, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: /var/folders/qx/ww__kbyn11b...}, goog:chromeOptions: {debuggerAddress: localhost:59546}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 59ed366b501cfef2c9d4fcd9c595b06f
+*** Element info: {Using=xpath, value=//input[@id='loginName']}
+
+2022-02-15 18:26:58 - [MESSAGE][WARNING] - [SELF-HEALING] no such window: window was already closed
+  (Session info: chrome=98.0.4758.80)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'KltdeAir', ip: 'fe80:0:0:0:1035:e248:ce2d:dffe%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.80, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: /var/folders/qx/ww__kbyn11b...}, goog:chromeOptions: {debuggerAddress: localhost:59546}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 59ed366b501cfef2c9d4fcd9c595b06f
+*** Element info: {Using=xpath, value=//*[@placeholder = '请输入登录名称！' and @id = 'loginName' and @type = 'text']}
+
+2022-02-15 18:26:58 - [MESSAGE][WARNING] - [SELF-HEALING] no such window: window was already closed
+  (Session info: chrome=98.0.4758.80)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'KltdeAir', ip: 'fe80:0:0:0:1035:e248:ce2d:dffe%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.80, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: /var/folders/qx/ww__kbyn11b...}, goog:chromeOptions: {debuggerAddress: localhost:59546}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 59ed366b501cfef2c9d4fcd9c595b06f
+*** Element info: {Using=css selector, value=#loginName}
+
+2022-02-15 18:26:58 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2022-02-15 18:26:58 - [MESSAGE][FAILED] - Unable to set text '13666666666' of object 'Object Repository/Page_Zetta Decision/input_Name_loginName' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '13666666666' of object 'Object Repository/Page_Zetta Decision/input_Name_loginName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at 删除业务模型.run(删除业务模型:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644920331659.run(TempTestSuite1644920331659.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=98.0.4758.80)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'KltdeAir', ip: 'fe80:0:0:0:1035:e248:ce2d:dffe%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.80, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: /var/folders/qx/ww__kbyn11b...}, goog:chromeOptions: {debuggerAddress: localhost:59546}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 59ed366b501cfef2c9d4fcd9c595b06f
+*** Element info: {Using=xpath, value=//input[@id='loginName']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1016)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:911)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:894)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:889)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:885)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:733)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1365)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1644920277897.run(Script1644920277897.groovy:24)
+	... 16 more
+)]]></system-out>
+         <system-err><![CDATA[2022-02-15 18:26:52 - [TEST_CASE][FAILED] - Test Cases/删除业务模型: Test Cases/删除业务模型 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '13666666666' of object 'Object Repository/Page_Zetta Decision/input_Name_loginName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at 删除业务模型.run(删除业务模型:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644920331659.run(TempTestSuite1644920331659.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=98.0.4758.80)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'KltdeAir', ip: 'fe80:0:0:0:1035:e248:ce2d:dffe%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.80, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: /var/folders/qx/ww__kbyn11b...}, goog:chromeOptions: {debuggerAddress: localhost:59546}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 59ed366b501cfef2c9d4fcd9c595b06f
+*** Element info: {Using=xpath, value=//input[@id='loginName']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1016)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:911)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:894)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:889)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:885)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:733)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1365)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-15 18:18:55 - [TEST_SUITE][FAILED] - 模拟创建_删除业务模型: Test Cases/删除业务模型 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/删除业务模型/Page_Zetta Decision/验证user主体' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1497)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$6.call(Unknown Source)
+	at 删除业务模型.run(删除业务模型:85)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644920331659.run(TempTestSuite1644920331659.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/删除业务模型/Page_Zetta Decision/验证user主体' located by 'By.xpath: //*[@id="app"]/section/section/main/div/div/div[2]/div/div/div/div/div/div/table/tbody/tr[@data-row-key="taouser1"]' is present after '5' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[2022-02-15 18:18:55 - [TEST_SUITE][FAILED] - 模拟创建_删除业务模型: Test Cases/删除业务模型 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/删除业务模型/Page_Zetta Decision/验证user主体' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1497)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$6.call(Unknown Source)
+	at 删除业务模型.run(删除业务模型:85)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644920331659.run(TempTestSuite1644920331659.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/删除业务模型/Page_Zetta Decision/验证user主体' located by 'By.xpath: //*[@id="app"]/section/section/main/div/div/div[2]/div/div/div/div/div/div/table/tbody/tr[@data-row-key="taouser1"]' is present after '5' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

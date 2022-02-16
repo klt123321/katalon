@@ -1,0 +1,74 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+模拟创建_删除业务模型,Chrome 98.0.4758.80,,,2022-02-16 10:40:20,2022-02-16 10:49:01,8m - 41.175s,FAILED
+,,,,,,,
+Test Cases/配置业务模型,Chrome 98.0.4758.80,,,2022-02-16 10:40:20,2022-02-16 10:43:03,2m - 43.125s,PASSED
+"openBrowser("""")",Chrome 98.0.4758.80,,,2022-02-16 10:40:21,2022-02-16 10:40:27,6.510s,PASSED
+"navigateToUrl(""http://121.40.154.50:8049/login"")",Chrome 98.0.4758.80,,,2022-02-16 10:40:27,2022-02-16 10:40:30,3.259s,PASSED
+"setText(findTestObject(""Object Repository/kong/Page_Zetta Decision/input_Name_loginName""), ""13666666666"")",Chrome 98.0.4758.80,,,2022-02-16 10:40:30,2022-02-16 10:40:34,3.647s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/kong/Page_Zetta Decision/input_Password_loginPwd""), ""aeHFOx8jV/A="")",Chrome 98.0.4758.80,,,2022-02-16 10:40:34,2022-02-16 10:40:35,0.552s,PASSED
+"click(findTestObject(""Object Repository/kong/Page_Zetta Decision/button_""))",Chrome 98.0.4758.80,,,2022-02-16 10:40:35,2022-02-16 10:40:35,0.720s,PASSED
+"click(findTestObject(""Object Repository/kong/Page_Zetta Decision/a_""))",Chrome 98.0.4758.80,,,2022-02-16 10:40:35,2022-02-16 10:40:38,2.450s,PASSED
+"click(findTestObject(""Object Repository/kong/Page_Zetta Decision/span_""))",Chrome 98.0.4758.80,,,2022-02-16 10:40:38,2022-02-16 10:40:40,2.162s,PASSED
+"setText(findTestObject(""Object Repository/kong/Page_Zetta Decision/input__modelName""), ""taouser1"")",Chrome 98.0.4758.80,,,2022-02-16 10:40:40,2022-02-16 10:40:41,1.155s,PASSED
+"setText(findTestObject(""Object Repository/kong/Page_Zetta Decision/input_Code_modelCode""), ""taouser1"")",Chrome 98.0.4758.80,,,2022-02-16 10:40:41,2022-02-16 10:40:42,1.302s,PASSED
+"click(findTestObject(""Object Repository/kong/Page_Zetta Decision/div_CodeIDIDIDID""))",Chrome 98.0.4758.80,,,2022-02-16 10:40:42,2022-02-16 10:40:43,0.357s,PASSED
+"click(findTestObject(""Object Repository/kong/Page_Zetta Decision/button__1""))",Chrome 98.0.4758.80,,,2022-02-16 10:40:43,2022-02-16 10:40:43,0.484s,PASSED
+"click(findTestObject(""Object Repository/kong/Page_Zetta Decision/span_""))",Chrome 98.0.4758.80,,,2022-02-16 10:40:43,2022-02-16 10:40:44,1.089s,PASSED
+"setText(findTestObject(""Object Repository/kong/Page_Zetta Decision/input__modelName""), ""涛视频1"")",Chrome 98.0.4758.80,,,2022-02-16 10:40:44,2022-02-16 10:40:46,1.880s,PASSED
+"setText(findTestObject(""Object Repository/kong/Page_Zetta Decision/input_Code_modelCode""), ""taovideo1"")",Chrome 98.0.4758.80,,,2022-02-16 10:40:46,2022-02-16 10:40:47,0.932s,PASSED
+"click(findTestObject(""Object Repository/kong/Page_Zetta Decision/span__1""))",Chrome 98.0.4758.80,,,2022-02-16 10:40:47,2022-02-16 10:41:19,31.982s,PASSED
+"click(findTestObject(""Object Repository/kong/Page_Zetta Decision/a__1""))",Chrome 98.0.4758.80,,,2022-02-16 10:41:19,2022-02-16 10:41:20,1.104s,PASSED
+"click(findTestObject(""Object Repository/kong/Page_Zetta Decision/span__1_2""))",Chrome 98.0.4758.80,,,2022-02-16 10:41:20,2022-02-16 10:41:22,2.130s,PASSED
+"click(findTestObject(""Object Repository/kong/Page_Zetta Decision/span_taouser""))",Chrome 98.0.4758.80,,,2022-02-16 10:41:22,2022-02-16 10:41:23,0.738s,PASSED
+"click(findTestObject(""Object Repository/kong/Page_Zetta Decision/span__1_2_3""))",Chrome 98.0.4758.80,,,2022-02-16 10:41:23,2022-02-16 10:41:24,1.013s,PASSED
+"click(findTestObject(""Object Repository/kong/Page_Zetta Decision/span__ant-input-affix-wrapper ant-input-aff_46c20f""))",Chrome 98.0.4758.80,,,2022-02-16 10:41:24,2022-02-16 10:41:25,0.662s,PASSED
+"setText(findTestObject(""Object Repository/kong/Page_Zetta Decision/input__name""), ""手机号"")",Chrome 98.0.4758.80,,,2022-02-16 10:41:25,2022-02-16 10:41:26,0.716s,PASSED
+"setText(findTestObject(""Object Repository/kong/Page_Zetta Decision/input_Code_code""), ""phone"")",Chrome 98.0.4758.80,,,2022-02-16 10:41:26,2022-02-16 10:41:27,1.003s,PASSED
+"click(findTestObject(""kong/Page_Zetta Decision/div_ - Copy""))",Chrome 98.0.4758.80,,,2022-02-16 10:41:27,2022-02-16 10:41:27,0.595s,PASSED
+"click(findTestObject(""Object Repository/kong/Page_Zetta Decision/div_""))",Chrome 98.0.4758.80,,,2022-02-16 10:41:27,2022-02-16 10:41:28,0.616s,PASSED
+"click(findTestObject(""kong/Page_Zetta Decision/div__1 - Copy""))",Chrome 98.0.4758.80,,,2022-02-16 10:41:28,2022-02-16 10:41:28,0.491s,PASSED
+"click(findTestObject(""Object Repository/kong/Page_Zetta Decision/div__1""))",Chrome 98.0.4758.80,,,2022-02-16 10:41:28,2022-02-16 10:41:29,0.718s,PASSED
+"click(findTestObject(""kong/Page_Zetta Decision/button__unique""))",Chrome 98.0.4758.80,,,2022-02-16 10:41:29,2022-02-16 10:41:29,0.518s,PASSED
+"click(findTestObject(""Object Repository/kong/Page_Zetta Decision/button__1""))",Chrome 98.0.4758.80,,,2022-02-16 10:41:29,2022-02-16 10:41:30,0.665s,PASSED
+"click(findTestObject(""Object Repository/kong/Page_Zetta Decision/span__1_2_3""))",Chrome 98.0.4758.80,,,2022-02-16 10:41:30,2022-02-16 10:41:32,2.250s,PASSED
+"setText(findTestObject(""Object Repository/kong/Page_Zetta Decision/input__name""), ""年龄"")",Chrome 98.0.4758.80,,,2022-02-16 10:41:32,2022-02-16 10:41:33,0.891s,PASSED
+"setText(findTestObject(""Object Repository/kong/Page_Zetta Decision/input_Code_code""), ""age"")",Chrome 98.0.4758.80,,,2022-02-16 10:41:33,2022-02-16 10:41:34,1.214s,PASSED
+"click(findTestObject(""kong/Page_Zetta Decision/div_ - Copy""))",Chrome 98.0.4758.80,,,2022-02-16 10:41:34,2022-02-16 10:41:35,0.355s,PASSED
+"click(findTestObject(""Object Repository/kong/Page_Zetta Decision/span__1_2_3_4""))",Chrome 98.0.4758.80,,,2022-02-16 10:41:35,2022-02-16 10:41:36,0.671s,PASSED
+"click(findTestObject(""kong/Page_Zetta Decision/div__1 - Copy""))",Chrome 98.0.4758.80,,,2022-02-16 10:41:36,2022-02-16 10:41:36,0.592s,PASSED
+"click(findTestObject(""Object Repository/kong/Page_Zetta Decision/div__1""))",Chrome 98.0.4758.80,,,2022-02-16 10:41:36,2022-02-16 10:41:37,0.718s,PASSED
+"click(findTestObject(""Object Repository/kong/Page_Zetta Decision/span__1""))",Chrome 98.0.4758.80,,,2022-02-16 10:41:37,2022-02-16 10:41:38,0.713s,PASSED
+"click(findTestObject(""Object Repository/kong/Page_Zetta Decision/span__1_2_3""))",Chrome 98.0.4758.80,,,2022-02-16 10:41:38,2022-02-16 10:41:40,2.025s,PASSED
+"setText(findTestObject(""Object Repository/kong/Page_Zetta Decision/input__name""), ""姓名"")",Chrome 98.0.4758.80,,,2022-02-16 10:41:40,2022-02-16 10:41:42,2.023s,PASSED
+"setText(findTestObject(""Object Repository/kong/Page_Zetta Decision/input_Code_code""), ""name"")",Chrome 98.0.4758.80,,,2022-02-16 10:41:42,2022-02-16 10:41:42,0.812s,PASSED
+"click(findTestObject(""kong/Page_Zetta Decision/div_ - Copy""))",Chrome 98.0.4758.80,,,2022-02-16 10:41:42,2022-02-16 10:41:43,0.337s,PASSED
+"click(findTestObject(""Object Repository/kong/Page_Zetta Decision/span__1_2_3_4""))",Chrome 98.0.4758.80,,,2022-02-16 10:41:43,2022-02-16 10:41:43,0.588s,PASSED
+"click(findTestObject(""kong/Page_Zetta Decision/div__1 - Copy""))",Chrome 98.0.4758.80,,,2022-02-16 10:41:43,2022-02-16 10:41:44,0.623s,PASSED
+"click(findTestObject(""Object Repository/kong/Page_Zetta Decision/div__1""))",Chrome 98.0.4758.80,,,2022-02-16 10:41:44,2022-02-16 10:41:45,0.645s,PASSED
+"click(findTestObject(""Object Repository/kong/Page_Zetta Decision/span__1""))",Chrome 98.0.4758.80,,,2022-02-16 10:41:45,2022-02-16 10:41:45,0.597s,PASSED
+"click(findTestObject(""Object Repository/kong/Page_Zetta Decision/span__1_2_3""))",Chrome 98.0.4758.80,,,2022-02-16 10:41:45,2022-02-16 10:41:47,1.978s,PASSED
+"setText(findTestObject(""Object Repository/kong/Page_Zetta Decision/input__name""), ""兴趣爱好"")",Chrome 98.0.4758.80,,,2022-02-16 10:41:47,2022-02-16 10:41:49,2.160s,PASSED
+"setText(findTestObject(""Object Repository/kong/Page_Zetta Decision/input_Code_code""), ""interests"")",Chrome 98.0.4758.80,,,2022-02-16 10:41:49,2022-02-16 10:41:50,0.856s,PASSED
+"click(findTestObject(""kong/Page_Zetta Decision/div_ - Copy""))",Chrome 98.0.4758.80,,,2022-02-16 10:41:50,2022-02-16 10:41:51,0.534s,PASSED
+"click(findTestObject(""Object Repository/kong/Page_Zetta Decision/div_""))",Chrome 98.0.4758.80,,,2022-02-16 10:41:51,2022-02-16 10:41:51,0.498s,PASSED
+"click(findTestObject(""kong/Page_Zetta Decision/div__1 - Copy""))",Chrome 98.0.4758.80,,,2022-02-16 10:41:51,2022-02-16 10:41:52,0.609s,PASSED
+"click(findTestObject(""Object Repository/kong/Page_Zetta Decision/div__1""))",Chrome 98.0.4758.80,,,2022-02-16 10:41:52,2022-02-16 10:41:52,0.679s,PASSED
+"click(findTestObject(""Object Repository/kong/Page_Zetta Decision/span__1""))",Chrome 98.0.4758.80,,,2022-02-16 10:41:52,2022-02-16 10:41:53,0.505s,PASSED
+"click(findTestObject(""Object Repository/kong/Page_Zetta Decision/a_""))",Chrome 98.0.4758.80,,,2022-02-16 10:41:53,2022-02-16 10:41:55,2.199s,PASSED
+"click(findTestObject(""Object Repository/kong/Page_Zetta Decision/span__1_2_3_4_5""))",Chrome 98.0.4758.80,,,2022-02-16 10:41:55,2022-02-16 10:41:57,1.932s,PASSED
+"click(findTestObject(""Object Repository/kong/Page_Zetta Decision/svg""))",Chrome 98.0.4758.80,,,2022-02-16 10:41:57,2022-02-16 10:42:29,31.878s,PASSED
+"click(findTestObject(""Object Repository/kong/Page_Zetta Decision/span__ant-tree-checkbox-inner""))",Chrome 98.0.4758.80,,,2022-02-16 10:42:29,2022-02-16 10:42:29,0.477s,PASSED
+"click(findTestObject(""Object Repository/kong/Page_Zetta Decision/span__1_2_3_4_5_6""))",Chrome 98.0.4758.80,,,2022-02-16 10:42:29,2022-02-16 10:42:30,0.539s,PASSED
+"click(findTestObject(""Object Repository/kong/Page_Zetta Decision/span__1""))",Chrome 98.0.4758.80,,,2022-02-16 10:42:30,2022-02-16 10:43:02,32.195s,PASSED
+"verifyElementText(findTestObject(""kong/Page_Zetta Decision/check_2""), ""手机号"")",Chrome 98.0.4758.80,,,2022-02-16 10:43:02,2022-02-16 10:43:03,0.975s,PASSED
+,,,,,,,
+Test Cases/删除业务模型,Chrome 98.0.4758.80,,,2022-02-16 10:47:02,2022-02-16 10:49:01,1m - 59.007s,FAILED
+"openBrowser("""")",Chrome 98.0.4758.80,,,2022-02-16 10:47:02,2022-02-16 10:47:05,2.795s,PASSED
+"navigateToUrl(""http://121.40.154.50:8049/login"")",Chrome 98.0.4758.80,,,2022-02-16 10:47:05,2022-02-16 10:47:08,3.271s,PASSED
+"setText(findTestObject(""Object Repository/Page_Zetta Decision/input_Name_loginName""), ""13666666666"")",Chrome 98.0.4758.80,,,2022-02-16 10:47:08,2022-02-16 10:47:12,3.845s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Zetta Decision/input_Password_loginPwd""), ""aeHFOx8jV/A="")",Chrome 98.0.4758.80,,,2022-02-16 10:47:12,2022-02-16 10:47:13,0.959s,PASSED
+"click(findTestObject(""Object Repository/Page_Zetta Decision/button_""))",Chrome 98.0.4758.80,,,2022-02-16 10:47:13,2022-02-16 10:47:13,0.772s,PASSED
+"click(findTestObject(""Object Repository/删除业务模型/Page_Zetta Decision/a_""))",Chrome 98.0.4758.80,,,2022-02-16 10:47:13,2022-02-16 10:47:16,2.268s,PASSED
+"click(findTestObject(""删除业务模型/Page_Zetta Decision/svg - Copy""))",Chrome 98.0.4758.80,第一次删除标签,,2022-02-16 10:47:16,2022-02-16 10:47:48,32.223s,PASSED
+"click(findTestObject(""Object Repository/删除业务模型/Page_Zetta Decision/svg""))",Chrome 98.0.4758.80,,,2022-02-16 10:47:48,2022-02-16 10:48:23,35.015s,PASSED
+"clickOffset(findTestObject(""删除业务模型/Page_Zetta Decision/a__1""), 5, 5)",Chrome 98.0.4758.80,,,2022-02-16 10:48:23,2022-02-16 10:49:01,37.801s,FAILED
